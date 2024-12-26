@@ -1,60 +1,29 @@
-##0x0A. Prime Game
+# Holberton School Interview
+![Holberton logo](https://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png)
+> Interview - Preparation
 
+## Description:bulb:
+Interview Algorithm practice
 
-- For this project, I leverage my understanding of prime numbers, game theory, and algorithm optimization to solve a competitive game scenario. The challenge involves determining the winner of a game based on the strategic removal of prime numbers and their multiples from a set of consecutive integers.
+* Whiteboard
+* Data Structures
+* Time complexity (Big O notation)
+* Searching algorithms
 
-##Task
-0. Prime Game
+## Technologies & Tools:computer:
 
+![Git](https://img.shields.io/badge/≡-Git-F05032?logo=git&style=flat-square&labelColor=282828)
+![Ubuntu](https://img.shields.io/badge/≡-Ubuntu-E95420?&style=flat-square&logo=Ubuntu&labelColor=282828)
+![GNU_Bash](https://img.shields.io/badge/≡-GNU_Bash-4EAA25?logo=GNU-Bash&style=flat-square&labelColor=282828)
+![Vim](https://img.shields.io/badge/≡-Vim-019733?logo=Vim&style=flat-square&logoColor=019733&labelColor=282828)
+![Pop!_OS](https://img.shields.io/badge/≡-Pop!_OS-48B9C7?logo=Pop_OS&style=flat-square&labelColor=282828)
+![VS_Code](https://img.shields.io/badge/≡-VS_Code-007ACC?logo=visual-studio-code&style=flat-square&logoColor=007ACC&labelColor=282828)
+![Python](https://img.shields.io/badge/≡-Python-3776AB?logo=Python&style=flat-square&labelColor=282828)
+![C](https://img.shields.io/badge/≡-Language-A8B9CC?logo=C&style=flat-square&labelColor=282828)
+![GitHub](https://img.shields.io/badge/≡-GitHub-181717?logo=GitHub&style=flat-square&labelColor=282828)
 
-Maria and Ben are playing a game. Given a set of consecutive integers starting from 1 up to and including n, they take turns choosing a prime number from the set and removing that number and its multiples from the set. The player that cannot make a move loses the game.
+---
 
-They play x rounds of the game, where n may be different for each round. Assuming Maria always goes first and both players play optimally, determine who the winner of each game is.
-
-Prototype: def isWinner(x, nums)
-where x is the number of rounds and nums is an array of n
-Return: name of the player that won the most rounds
-If the winner cannot be determined, return None
-You can assume n and x will not be larger than 10000
-You cannot import any packages in this task
-Example:
-
-x = 3, nums = [4, 5, 1]
-First round: 4
-
-Maria picks 2 and removes 2, 4, leaving 1, 3
-Ben picks 3 and removes 3, leaving 1
-Ben wins because there are no prime numbers left for Maria to choose
-Second round: 5
-
-Maria picks 2 and removes 2, 4, leaving 1, 3, 5
-Ben picks 3 and removes 3, leaving 1, 5
-Maria picks 5 and removes 5, leaving 1
-Maria wins because there are no prime numbers left for Ben to choose
-Third round: 1
-
-Ben wins because there are no prime numbers for Maria to choose
-Result: Ben has the most wins
-
-$ cat main_0.py
-#!/usr/bin/python3
-
-isWinner = __import__('0-prime_game').isWinner
-
-
-print("Winner: {}".format(isWinner(5, [2, 5, 1, 4, 3])))
-
-$
-
-$ ./main_0.py
-Winner: Ben
-
-$
-
-Repo:
-
-GitHub repository: alx-interview
-
-Directory: 0x0A-primegame
-
-File: 0-prime_game.py
+## Author
+* **Desmond Mariwa** (@desniland) - [<img src="https://img.shields.io/badge/Portfolio-20d6fe.svg?&style=plastic"/>](https://desniland.github.io/DesmondMariwa/)
+  [<img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>](https://github.com/desniland)
