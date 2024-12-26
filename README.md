@@ -1,5 +1,6 @@
-# Holberton School Interview
-![Holberton logo](https://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png)
+# ALX Africa School Interview
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+
 > Interview - Preparation
 
 ## Description:bulb:
